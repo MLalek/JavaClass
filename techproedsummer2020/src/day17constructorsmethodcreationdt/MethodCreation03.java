@@ -16,6 +16,12 @@ public class MethodCreation03 {
 	 ==> If the data types are different, change the order (yerlerini degistir)
 	 
 	 Note: Changing return type, changing access modifier, changing method body does not solve that problem
+	 Method Overloading: If you created methods whose names are same but the parameters are different
+	  					 It means you are method overloading.
+	  1)What is overloading / meaning of overloading ==> when you create methods .... yukardan devam
+	  2) Is Method Overloading Compile Polymorphism  or Run Time Polymorphism?
+	  	Answer: Compile Time Polymorphism
+	  
 	 */
 	
 	

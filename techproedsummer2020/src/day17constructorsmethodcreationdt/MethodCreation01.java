@@ -21,11 +21,11 @@ public class MethodCreation01 {
 		System.out.println(x-y);
 	}
 	
+	
 	//If you use return type different from "void" you have to use "return"
 	//keyword in the last line of the method body.
-	//If you do not use "return" you will get CTE
-	
-	public static int multiply(int x, int y) { //here is return type is "multiply"
+	//If you do not use "return" you will get CTE	
+	public static int multiply(int x, int y) { //here is return type int therefore you should in the a last line "return"(return x*y;)
 		return x*y;
 	}
 	

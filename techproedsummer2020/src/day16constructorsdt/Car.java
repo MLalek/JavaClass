@@ -7,12 +7,21 @@ public class Car {
 	String make = "Honda";
 	String type = "Civic";
 	
-
+	//Bu sekilde de tanimlanabilir ve degersiz bos constructor "Car()" da da hicbir deger cikmaz
+//	int price;   
+//	int year;
+//	String make; 
+//	String type; 
 	
 	//Create a condtructor without paramaters
 	Car(){
 		
-	}
+	} //Note: Yukarida fiyat yil vs dolu olmz ise asgida bu Car() Class in constructorunda da degerler 
+	//(fiyat vs olmaz) asagidaki gibi olur
+	//0
+	//0
+	//null
+	//null
 	
 	
 	//Create a constructor with 1 parameter
