@@ -35,7 +35,7 @@ public class MultiDimensionalArrays01 {
 		
 		// How to create a multidimensional array in short way
 		int mda1[] [] = {{3,4,5}, {6}, {7,8}};
-		
+		System.out.println(Arrays.deepToString(mda1));
 		
 				}
 	}

@@ -17,7 +17,7 @@ public class StringManipulations01 {
 		
 		
 		if(hotmail.contains("@hotmail")) {
-			String gmail=hotmail.replace("@hotmail.com", "@gmail.com");//order is impor
+			String gmail=hotmail.replace("@hotmail.com", "@gmail.com");//order is important
 			System.out.println(gmail);
 		}else {
 			System.out.println("You didn't enter a hotmail");

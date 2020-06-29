@@ -11,14 +11,14 @@ public class StringManipulation03 {
 		String name="I love Java";
 		//check if there are 3 words. There must be 2 space.
 		int firstSpace=name.indexOf("");//1 //This will give the first one
-		System.out.println(firstSpace);
+		//System.out.println(firstSpace);
 		
 		int secondSpace=name.indexOf("" , firstSpace+1);
 		//this will look for " ", after the first space(second space)
-		System.out.println(secondSpace);
+		//System.out.println(secondSpace);
 				
         if(firstSpace!=-1&&secondSpace!=-1) {//indexof returns-1 when there is no space
-			
+        	System.out.println("Enter a sentence of 3 words");			
 		}
 
 

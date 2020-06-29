@@ -5,12 +5,11 @@ public class RotatedLeft {
 	public static void main(String[] args) {
 		// Type a program like; given an array whose length is 3, return an array with the
 		//	elements "rotated left"
-		
-//		int rotateLeft3[] =  new {1,2,3};
-//		public int[] rotateLeft3(int[]nums) {
-//			return new int[];
-//		}
-		
+//	public int[] rotateLeft3(int[] nums)
+//	{
+//	   return new int[] {nums[1],nums[2],nums[0]};
+//	}
+
 		
 //		RotatedLeft rotateLeftObject=new RotatedLeft();
 //		
@@ -28,6 +27,6 @@ public class RotatedLeft {
 //		
 //		returnAry[ary.length-1]=ary[0];
 //		return returnAry;
-	}
+	 }
 
-}
+  }

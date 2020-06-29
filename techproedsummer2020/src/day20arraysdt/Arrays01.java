@@ -6,7 +6,7 @@ public class Arrays01 {
 
 	public static void main(String[] args) {
 		//How to check if a specific element is in the array		
-		int arr [] = {5,2,4,3,5};
+		int arr [] = {1,5,4,3,5};
 		
 		/*
 		 Note: 1) Before using binarySearch() method you have to use sort()
@@ -24,7 +24,7 @@ public class Arrays01 {
 		System.out.println(arr);
 		System.out.println(Arrays.binarySearch(arr, 4));//2
 		System.out.println(Arrays.binarySearch(arr, 5));//3
-		System.out.println(Arrays.binarySearch(arr, 7));//-6
+		System.out.println(Arrays.binarySearch(arr, 2));//-2
 		System.out.println(Arrays.binarySearch(arr, 0));//-1
 	}
 
