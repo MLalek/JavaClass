@@ -33,7 +33,7 @@ public class MultiDimensionalArrays01 {
 		System.out.println(Arrays.toString(mda[1]));//[7, 8]
 		System.out.println(Arrays.toString(mda[2]));//[6, 11]
 		
-		// How to create a multidimensional array in short way
+		// How to create a multidimensional array in sh	ort way
 		int mda1[] [] = {{3,4,5}, {6}, {7,8}};
 		System.out.println(Arrays.deepToString(mda1));
 		

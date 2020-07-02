@@ -30,8 +30,7 @@ public class ForLoop03 {
 		for(int i=1; i<=10; i++) {
 			sum2= sum2 + i;
 			System.out.print(sum2);
-		}
-		
+		}		
 		
 	}
 
