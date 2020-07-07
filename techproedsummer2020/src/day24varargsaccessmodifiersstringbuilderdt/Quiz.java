@@ -1,23 +1,23 @@
 package day24varargsaccessmodifiersstringbuilderdt;
 
 public class Quiz {
-	
-	
-	public static void m3(String x, int... y) {
-
-		int p = 1;
-
-		for(int w: y) {
-
-			p = p * w;
-
-		}
-
-		System.out.print(x);
-
-		System.out.println(p);
-	}
-}
+//	
+//	
+//	public static void m3(String x, int... y) {
+//
+//		int p = 1;
+//
+//		for(int w: y) {
+//
+//			p = p * w;
+//
+//		}
+//
+//		System.out.print(x);
+//
+//		System.out.println(p);
+//	}
+//}
 
 
 //	public class Test1 {
@@ -111,41 +111,39 @@ public class Quiz {
 //
 //	public static void main(String[] args) {
 //
-//		A obj = new A();
+//A obj = new A();//
+//	}
+//}
+//
+//package pack1;
+//
+//public class Test3 {
+//
+//	protected int i = 12;
+//
+//	void m3() {
+//
+//		System.out.println(i); //12
 //
 //	}
 //
 //}
-
-package pack1;
-
-public class Test3 {
-
-	protected int i = 12;
-
-	void m3() {
-
-		System.out.println(i); //12
-
+//
+//
+//
+//package pack1;
+//
+//public class Test4 {
+//
+//	public static void main(String[] args) {
+//
+//		Test3 obj = new Test3();
+//
+//		System.out.println(obj.i);//12
+//
+//		obj.m3();
+//}
 	}
 
-}
 
-
-
-package pack1;
-
-public class Test4 {
-
-	public static void main(String[] args) {
-
-		Test3 obj = new Test3();
-
-		System.out.println(obj.i);//12
-
-		obj.m3();
-
-	}
-
-} 
 	

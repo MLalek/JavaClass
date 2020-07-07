@@ -1,4 +1,4 @@
-package day04;
+package day_04;
 
 public class Questions01 {
 	
@@ -7,12 +7,13 @@ public class Questions01 {
 			
 		
 		 //Print even numbers between 1-20 inclusive e.g.2 4 6 .. 20         		
+		//1.way
 		for (int i=1; i<=20; i++) {
 			if(i%2==-0) {
 				System.out.print(i+" ");
 			}
 		}
-		
+		//2.Way (gereksiz)
 		System.out.println();
 		for (int j = 1; j <= 10; j++) {
 			System.out.print(2*j+" ");			
@@ -73,12 +74,13 @@ public class Questions01 {
 			num++;
 		}
 		System.out.println(sum1);
+		
 		// Print all numbers from 1-20 except 11 or 15		
 		// use break or continue
 				for (int i = 1; i <= 20; i++) {
 					if (i == 11 || i == 15) {
 						continue;// Difference between break and continue?
-						// with break, java will get pout of the loop
+						// with break, java will get both of the loop
 						// with continue, java will just skip that condition and continue the loop
 					} else {
 						System.out.print(i + " ");
