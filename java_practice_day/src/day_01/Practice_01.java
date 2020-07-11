@@ -2,7 +2,7 @@ package day_01;
 
 public class Practice_01 {
 
-	// Every one shoul know to type main method
+	// Every one should know to type main method
 	public static void main(String[] args) {
 		// public static=> access modifies. accessable from anywhere in the project.
 		// Main method is always public static

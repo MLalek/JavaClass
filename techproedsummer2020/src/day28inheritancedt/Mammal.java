@@ -4,7 +4,7 @@ public class Mammal extends Animal{
 	
 	public Mammal() {
 		super("Johnny"); //Bu constructor dan Animal a gidip oradan String e ("Johny" string) ulasiyor
-						 //If you try to use non-existing constructor (super(int)) you will get CTE
+						 //If you try to use non-existing constructor for super(int)  you will get CTE
 		System.out.println("M");
 	}
 	

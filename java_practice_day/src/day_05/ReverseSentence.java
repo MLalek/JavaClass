@@ -14,7 +14,7 @@ public class ReverseSentence {
 		System.out.println(reverseString(str));
 		
 	}
-	//A method can be void ot have a return type (String, int, double, char)
+	//A method can be void or have a return type (String, int, double, char)
 	//If a method has a return type, Then that method Must have return keyword at the end!
 	public static String reverseString(String sentence) {
 		String reversed="";
