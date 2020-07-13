@@ -18,7 +18,7 @@ public class Animal {
 	//When you use return type different from "void" you have to use return keyword.
 	//After the "return" keyword you must type sth whose data type is matching with the return type of the method.
 	//To create an object we use "new" keyword and "constructor" but sometimes Java gives us different
-	//ways to create ab object from a class like String str = "Ali";
+	//ways to create an object from a class like String str = "Ali";
 	
 	public Animal drink() {
 		return new Animal(); // for new object use "new + String" 
