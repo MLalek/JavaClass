@@ -6,12 +6,12 @@ public class StringMethods02 {
 //		// 13) trim() method will delete the space characters from the
 //		//        beginning and ending of the String
 //		
-//		String str = " Java  ";
+       String str = " Java J ";
 //		//Before trim()
 //		System.out.println(str.length());//7
 //		
 //		//After trim()
-//		System.out.println(str.trim().length());//4
+		System.out.println(str.trim().length());//4
 //		
 //		//14 indexOf() method returns the index of 1st occurrence of the character
 //		String s = "Java is easy";

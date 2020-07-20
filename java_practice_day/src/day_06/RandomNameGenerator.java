@@ -2,6 +2,7 @@ package day_06;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class RandomNameGenerator {
 	
@@ -16,30 +17,31 @@ public class RandomNameGenerator {
 
 	public static void main(String[] args) {
 	
-	//Create a list
-	List<String> userList = new  ArrayList<>();
-	userList.add("Johnwalker");
-	userList.add("Johnmarry");
-	userList.add("samawalton");
-	userList.add("juliebrown");
-	
-	String myName="juliebrown";
-	for(String name:userList) {
-		if(name.equalsIgnoreCase(myName)) {
-			System.out.println("This username is already taken");
-			break;
-		}else {
-			System.out.println("This username is avaiblable");
-			break;
-		}
 		
-		}
-	
-	
-	
-	
-	
+		//Create a list
+		
+		 List<String> userList = new  ArrayList<>();
+		 userList.add("John Walker");
+		userList.add("John Marry");
+		userList.add("samawalton");
+		userList.add("Juliebrown");
+		
+		String myName="John Walker";
+	  for(String name:userList) {
+				if(name.equalsIgnoreCase(name)) {
+					System.out.println("This username is already taken: " + myName.toLowerCase().replace(" ", ""));
+					
+					break;
+				}else {
+					System.out.println("This username is avaiblable");
+					break;
+				}
+	  }
+		
+				
 
 	}
 
 }
+
+	 

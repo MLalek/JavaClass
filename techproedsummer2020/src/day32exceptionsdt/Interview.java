@@ -4,7 +4,7 @@ public class Interview {
 	/*
 	 What is the difference between "final", "finally" and "finalize()"?
 	 1)final: We can use final keyword or a) variables ==> Their values cannot be updated
-	 	 								  b) method    ==> The bod of final methods is
+	 	 								  b) method    ==> The both of final methods is
 	 	 								  					in its final state, it mens you
 	 	 								  					cannot update the body of the 
 	 	 								  					final method.If you cannot update
