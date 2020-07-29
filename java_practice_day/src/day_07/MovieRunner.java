@@ -20,7 +20,7 @@ public class MovieRunner extends Movie {
         starWars.duration=120;
         //Assigning is good or not
         starWars.isGood=true;
-        //Calling movieInfo method to pring movie information faster
+        //Calling movieInfo method to print movie information faster
         starWars.movieInfo();
         //Print if movie short or long
         starWars.shortOrLong();

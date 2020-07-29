@@ -43,6 +43,7 @@ public class Q01 {
 		List<String> list = new ArrayList<>();
 		list.add("Brandon");
 		list.add("Tucker");
+		System.out.println(list);//listede olanlari asagida remove all ile q1 listesinden cikarttik
 		
 		q1.removeAll(list);
 		System.out.println(q1);//[Ali, Cris, Mark] List te list olarak secilen butun Brandon ve Tuckerlari sil
@@ -60,7 +61,7 @@ public class Q01 {
 		System.out.println(q1.peek());//Cris
 		System.out.println(q1);//[Cris, Mark]
 		
-		q1.clear();//It removed all elements
+		//q1.clear();//It removed all elements
 		
 		System.out.println(q1.peek());//null
 		System.out.println(q1.element());//NoSuchElementException

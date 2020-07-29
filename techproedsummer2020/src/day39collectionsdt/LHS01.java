@@ -9,7 +9,7 @@ public class LHS01 {
 	/*
 	 1)LinkedHAshSet is a Set so no duplication
 	 2)LinkedHAshSet puts the elements in insertion order
-	 3)LinkedHAshSet accepts "nul" as an element
+	 3)LinkedHAshSet accepts "null" as an element
 	 4)LinkedHAshSet overwrites if you add repeated elements
 	 */
 	
