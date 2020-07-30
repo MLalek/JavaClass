@@ -16,25 +16,23 @@ public class While01 {
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter an integer");
-		int num = sc.nextInt(); // user enters 5
+		int num = sc.nextInt();
 		
-		//1.way using for-loop
-//		int product = 1;
-//		for(int i=1; i<=num; i++) {
-//			product = product * i;
-//		}
-//		System.out.println(product);//120 cikiyor
+		//1. Way by using for-loop
+		int product = 1;		
+		for(int i=1; i<=num; i++) {		
+			product = product * i;			
+		}		
+		System.out.println(product);
 		
-		//2.Way by using while loop
-		int prdct =1;
-		int i=1;
+		//2. Way by using while loop
+		int prdct = 1;
+		int i =1;
 		while(i<=num) {
 			prdct = prdct * i;
 			i++;
-			 System.out.print(prdct);//
 		}
-		
-         //System.out.print(prdct);//120
+		System.out.println(prdct);//120
          
          
          
