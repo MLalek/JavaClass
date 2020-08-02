@@ -1,9 +1,13 @@
 package day45questionsdt;
 
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 public class IQ01 {
 	
@@ -14,12 +18,9 @@ public class IQ01 {
 
 	public static void main(String[] args) {
 	
-//		String[] letters;
-//		letters = new String[]{"A", "B", "D", "C", "B", "A", "A", "A", "B", "B"};
-		
 		String arr[] = {"A", "B", "D", "C", "B",  "A", "A", "B", "B"};
 		
-		//1.Way
+		//1.Way Bu cozumu sinavda yaz
 		//Set does not except repeted elements
 		Set<String> set1 = new HashSet<>(); //Set ile yapilmasi gerekiyor for repeated elements
 		for(int i=0; i<arr.length; i++) {
@@ -58,7 +59,16 @@ public class IQ01 {
 		System.out.println(map);//{A=3, B=4, C=1, D=1}
 		
 		
+		//4.Way Functional Programming
+		List<String> list = Arrays.asList(arr);
 		
+		list.stream()
+//		.filter(t->Collections.frequency(list, t)==3)// A cunku 3 defa tekrari var 4 yazsaydik B verecekti
+//		.filter(t->Collections.frequency(list, t)==1)//C D uniq olanlari bul (yani tekrari olmayanlari)
+		.filter(t->Collections.frequency(list, t)>1)
+		.collect(Collectors.toSet())
+		.forEach(t->System.out.print(t+ " "));//AB
+	
 		
 		
 
